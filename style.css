@@ -1,0 +1,117 @@
+html,  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #0056b3;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+.course {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.progress {
+    width: 60%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.progress-bar {
+    height: 20px;
+    background: #28a745;
+    width: 70%;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+
+/* Footer styling */
+footer {
+    background: #fffdfd;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contact-input, .contact-textarea {
+    margin-top: 80px; /* Moves the elements below the fixed header */
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}  
+
+/* Search Bar Styling */
+.search-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.search-input:focus {
+    border-color: #0056b3;
+}
+
+.search-button {
+    background: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-left: 5px;
+}
+
+.search-button:hover {
+    background: #004494;
+}
